@@ -8,38 +8,67 @@
 </head>
 <body>
     <header>
-        <h1 id="h1">The Filth Lords Welcome You!</h1>
-        <ul id="ul">
-            <li>Home</li>
-            <li>About Us</li>
-            <li><a href="#contact">Contact Us</a></li>
-        </ul>
+        <div>
+        <h1><strong>The Secret Society of Filth</strong></h1>
+        <p id="tab-alot">Home</p>
+        <p id="tab">About Us</p>
+        <p id="tab2"><a href="#contact">Contact Us</a></p>
+        </div>
     </header>
-
     <main>
-        <h2>Our Leader!</h2>
-            <figure>
-                <img src="https://ca.slack-edge.com/T03ER3HKL1E-U03JABZUFAM-5c2dcb81fb2e-512" alt="Our Leader!">
-                <figcaption>Our Leader Wants You!</figcaption>
-            </figure>
+            <section>
+                <div class="wrap">
+                    
+                    <figure>
+                        <img id="leader" src="https://ca.slack-edge.com/T03ER3HKL1E-U03JABZUFAM-5c2dcb81fb2e-512" alt="Our Leader!">
+                        <figcaption>Our Leader!</figcaption>
+                    </figure>
+                        <div class="box">
+                        <p>
+                            <span style ="font-size: 38px;"><strong>Why you should join!</strong></span>
+                            <br>
+                            <br>
+                        </p>
+                            <p><span style="font-size: 32px;">
+                            1. We aren't that filthy it's just a name thing.
+                            <br>
+                            <br>
+                            2. We like cats!
+                            <br>
+                            <br>
+                            3. We're better at web development then you are.
+                            </span>
+                            </p>
+                        </div>
+                </div>
+            </section>
+            <section>
+                <h2>Contact Us!</h2>
+                <div class="wrap">
+                <form id="contact">
+                    <br>
+                    <br>
+                    <label type="text" for="fname">We Require your first name!:</label>
+                    <input type="text" id="fname" name="fname" placeholder="Your first name plz">
+                    <br>
+                    <br>
+                    <label type="text" for="lname">We Require your last name!:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Your last name plz">
+                    <br>
+                    <br>
+                    <label type="text" for="email">We Require your email!:</label>
+                    <input type="text" id="email" name="email" placeholder="Your email plz">
 
-            <form id="contact">
-                <label type="text" for="fname">We Require your first name!:</label>
-                <input type="text" id="fname" name="fname" placeholder="Your first name plz">
-                <br>
-                <label type="text" for="lname">We Require your last name!:</label>
-                <input type="text" id="lname" name="lname" placeholder="Your last name plz">
-                <br>
-                <label type="text" for="email">We Require your email!:</label>
-                <input type="text" id="email" name="email" placeholder="Your email plz">
-
-                <input type="submit" value="Send">
-            </form>
-
+                    <input type="submit" value="Send">
+                </form>
+                <img id="logo" src="./filthlord.PNG" alt="filth lord logo">
+                </div>  
+            </section>
     </main>
 
     <footer>
-        <p>© Filth Lords</p>
+        <br>
+        <p id="bb">© Filth Lords</p>
     </footer>
 </body>
 </html>
